@@ -3,7 +3,8 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation"; 
-import { Menu, X } from "lucide-react"; 
+import { Menu, X } from "lucide-react";
+import { MdMenuBook } from "react-icons/md"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,17 +18,10 @@ const Navbar = () => {
       <nav className="flex justify-between items-center py-3 max-w-7xl mx-auto w-full">
         
         {/* Logo Section */}
-        <div className="flex gap-2 items-center">
-          <Image
-            src={"/logo.png"}
-            alt="logo"
-            loading="eager"
-            width={110} 
-            height={80}
-            className="object-contain"
-          />
-          <h3 className="font-black text-xl text-[#37353E] tracking-tight">OpenShelf</h3>
-        </div>
+        <div className="flex items-center gap-2 text-primary mb-2">
+                      <MdMenuBook size={32} />
+                      <span className="text-2xl text-[#37353E] font-bold tracking-wide">OpenShelf</span>
+                    </div>
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex items-center text-[#695D5E] gap-8 text-sm font-medium">
