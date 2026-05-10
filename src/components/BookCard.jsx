@@ -36,7 +36,7 @@ const BookCard = ({ book }) => {
           {/* Action Button */}
           <div className="mt-auto">
             <Link
-              href={`/books/${book.id}`}
+              href={`/all-books/${book.id}`}
               className="block text-center border-2 border-[#37353E] text-[#37353E] hover:bg-[#37353E] hover:text-white py-2.5 px-4 text-sm font-bold rounded-xl transition-all duration-300 w-full"
             >
               View Details
