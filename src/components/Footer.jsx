@@ -4,7 +4,7 @@ import { MdMenuBook } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#D4D9D7]/90 text-[#37353E] border-t border-gray-900/10 mx-auto">
+    <footer className="bg-[#37353E]/20 text-[#37353E] border-t border-gray-900/10 mx-auto">
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -64,8 +64,8 @@ export default function Footer() {
       </div>
       
       {/* Copyright Bar */}
-      <div className="border-t border-[#37353E]/10 bg-[#37353E]/5">
-        <div className="max-w-7xl text-[#37353E] mx-auto px-4 py-4 text-center text-xs sm:text-sm font-medium">
+      <div className="border-t border-[#37353E]/10 bg-[#37353E]">
+        <div className="max-w-7xl text-white mx-auto px-4 py-4 text-center text-xs sm:text-sm font-medium">
           <p>Copyright © 2026 OpenShelf. All rights reserved.</p>
         </div>
       </div>

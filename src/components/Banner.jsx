@@ -15,13 +15,13 @@ const Banner = () => {
           </p>
 
           <div className="flex gap-4">
-            <Link href="#">
+            <Link href="/all-books">
               <Button className="bg-[#37353E] text-[#D4D9D7] px-8 py-4 rounded-full shadow-lg border-none hover:scale-105 transition-transform duration-300 font-semibold">
                 Browse Books
               </Button>
             </Link>
 
-            <Link href="/pricing">
+            <Link href="#">
               <Button variant="outline" className="text-white">
                  Watch Demo
               </Button>
