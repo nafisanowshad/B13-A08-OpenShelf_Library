@@ -7,7 +7,7 @@ import { Menu, X } from "lucide-react";
 import { MdMenuBook } from "react-icons/md";
 import { authClient } from "@/lib/auth-client";
 import { Avatar, Button } from "@heroui/react";
-import { auth } from "@/lib/auth";
+
 
 const Navbar = () => {
   const userData = authClient.useSession();
